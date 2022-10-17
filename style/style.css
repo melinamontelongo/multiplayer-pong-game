@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background: linear-gradient(0deg, #7f5af0, #f05acf);
+    height: 100vh;
+    overflow: hidden;
+}
+
+#gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 3px solid;
+}
+#scoreText{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 20px;
+    color: #ffff;
+    margin: 10px;
+    text-shadow: 3px 3px 0px black;
+}
+#resetBtn{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.text{
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 4px 4px 0px black;
+}
+
+.player-one{
+    text-align: left;
+    float:left;
+    font-family: 'Press Start 2P', monospace; 
+    color: #ffff;
+    text-shadow: 3px 3px 0px black;
+}
+.player-two{
+    text-align: right;
+    float:right;
+    font-family: 'Press Start 2P', monospace; 
+    color: #ffff;
+    text-shadow: 3px 3px 0px black;
+    }
+

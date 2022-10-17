@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h2 class="text">Multiplayer Pong</h2>
+    <div id="gameContainer">
+        <div class="player-one">
+            <h3>Player One:</h3>
+            <p class="keys">W & S</p>
+        </div>
+        <div class="player-two">
+            <h3>Player Two:</h3>
+            <p class="keys">Up & Down</p>
+        </div>
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0 : 0</div>
+        <button id="resetBtn">Reset</button>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
